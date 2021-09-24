@@ -1,0 +1,74 @@
+:root {
+  --mainColor: #736257;
+  --gold: #BC9961;
+}
+  
+body {
+  background: #736257;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 36px minmax(0, 1fr);
+  width: 100%;
+  row-gap: 60px;
+  padding: 40px 0;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 0;
+  margin: 0;
+  width: 206px;
+  height: 36px;
+  background-image: url(https://i.ibb.co/fxTfY99/nespresso.png);
+  background-size: 206px 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+
+.container h2 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 0 0 0 2px;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.container h3 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0 0 0 1px;
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
+}
+
+.group {
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.border {
+  border: 0.5px solid #FFFFFF;
+  position: static;
+  width: 150px;
+  height: 0px;
+  left: 140px;
+  top: 88px;
+}
+  
+  
